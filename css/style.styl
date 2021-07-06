@@ -1,0 +1,65 @@
+@import "./parcials/_global.styl"
+.container
+    width: 90%
+    border-radius: 8px
+    margin-left: auto
+    margin-right: auto
+    margin-top: 80px
+// .cards:first-child
+//     border-radius: 6px 0 0 0
+.cards-item
+    padding: 50px
+.cards__item--sedans
+    background: color-bright
+    border-radius: 8px 8px 0 0
+
+.cards__item--suvs
+    background: color-dark
+.cards__item--luxury
+    background: color-very-dark
+    border-radius: 0 0 8px 8px
+.item--icon
+    width: 64px
+    height: 40px
+    background-repeat: no-repeat
+    background-size: cover
+    position: absolute
+.item--icon-sedans
+    background-image: url("../images/icon-sedans.svg")
+.item--icon-suvs
+    background-image url("../images/icon-suvs.svg")
+.item--icon-luxury
+    background-image url("../images/icon-luxury.svg")
+.item--title
+    font-family: font-second
+    font-size: 30px
+    color: color-very-light
+    margin-top: 80px
+    margin-bottom: 20px
+    text-transform: uppercase
+.item-description
+    color: color-transparent
+    filter: opacity(.5)
+    font-family: font-main
+    font-size: 15px
+    line-height: 1.8
+    margin-bottom: 20px
+.item-button
+    width: 150px
+    height: 50px
+    border-radius: 50px
+    border: none
+    font-family: font-main
+    background: color-very-light
+    font-size: 15px
+.item-button-sedans
+    color: color-bright
+.item-button-suvs
+    color: color-dark
+.item-button-luxury
+    color: color-very-dark
+.attribution
+    text-align: center
+    font-family: font-main
+    font-size: 15px
+    padding: 40px 0

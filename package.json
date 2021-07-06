@@ -1,0 +1,20 @@
+{
+  "name": "3-column-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "Frontend challenge",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cssc": "stylus css/style.styl -w",
+    "csscompress": "stylus css/style.styl -w --compress"
+  },
+  "keywords": [
+    "Fronten",
+    "Mentor",
+    "HTML",
+    "CSS.",
+    "JS"
+  ],
+  "author": "\"\"\u001b[Dmiguel angel choque",
+  "license": "MIT"
+}

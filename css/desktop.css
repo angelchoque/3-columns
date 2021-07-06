@@ -1,0 +1,25 @@
+p {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.cards-item {
+  width: 15vw;
+  height: 54vh;
+  position: relative;
+}
+.cards__item--sedans {
+  border-radius: 8px 0 0 8px;
+}
+.cards__item--luxury {
+  border-radius: 0 8px 8px 0;
+}
+.item-button {
+  position: absolute;
+  bottom: 40px;
+}

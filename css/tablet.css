@@ -1,0 +1,14 @@
+p {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cards-item {
+  max-width: 40vw;
+}
